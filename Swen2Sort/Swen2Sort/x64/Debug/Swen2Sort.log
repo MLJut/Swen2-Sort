@@ -1,2 +1,7 @@
-﻿  main.cpp
+﻿  bubblesort.cpp
+  heapsort.cpp
+  main.cpp
+  mergesort.cpp
+  Generating Code...
+  LINK : D:\School\Git\Swen2-Sort\Swen2Sort\x64\Debug\Swen2Sort.exe not found or not built by the last incremental link; performing full link
   Swen2Sort.vcxproj -> D:\School\Git\Swen2-Sort\Swen2Sort\x64\Debug\Swen2Sort.exe
