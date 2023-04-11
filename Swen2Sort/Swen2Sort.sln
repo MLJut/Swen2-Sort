@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swen2Sort", "Swen2Sort\Swen2Sort.vcxproj", "{E133B351-2CBA-4652-ADC0-053F389B658F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C833A8C0-5400-466B-89FA-B91E698F25A8}"
+	ProjectSection(SolutionItems) = preProject
+		Swen2Sort\Swen2Sort.cpp = Swen2Sort\Swen2Sort.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inc", "inc", "{E04EBF16-7456-413E-9580-8B5C9630E4B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{AE840C47-3930-424D-BE39-19E9533561F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shl", "shl", "{E734903D-EA70-4735-874C-A08ADE43E780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Debug|x64.ActiveCfg = Debug|x64
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Debug|x64.Build.0 = Debug|x64
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Debug|x86.ActiveCfg = Debug|Win32
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Debug|x86.Build.0 = Debug|Win32
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Release|x64.ActiveCfg = Release|x64
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Release|x64.Build.0 = Release|x64
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Release|x86.ActiveCfg = Release|Win32
+		{E133B351-2CBA-4652-ADC0-053F389B658F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {758648FE-3607-4C0D-84F7-D62CE089001C}
+	EndGlobalSection
+EndGlobal
