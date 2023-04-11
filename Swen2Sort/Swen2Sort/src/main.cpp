@@ -59,17 +59,26 @@ int main(int argc, char* argv[])
 
     if (strcmp(algorithm, "bubblesort") == 0) {
         bubbleSort(values, valuesize);
+        bubbleSort(alphaValues, alphasize);
     }
     else if (strcmp(algorithm, "mergesort") == 0) {
         mergeSort(values, 0, valuesize - 1);
+        mergeSort(alphaValues, 0, alphasize - 1);
     }
     else if (strcmp(algorithm, "heapsort") == 0) {
         heapSort(values, valuesize);
+        heapSort(alphaValues, alphasize);
+    }
+    else {
+        std::cout << "Please enter valid sorting algorithm: bubblesort, mergesort or heapsort." << '\n';
+        return 1;
     }
 
     //show sorted arrays
     for (int i = 0; i < valuesize; i++) //show array after sorting
         std::cout << "value " << i + 1 << " = " << values[i] << std::endl;
 
+    for (int i = 0; i < alphasize; i++) //show array after sorting
+        std::cout << "value " << i + 1 << " = " << alphaValues[i] << std::endl;
     return 0;
 };
