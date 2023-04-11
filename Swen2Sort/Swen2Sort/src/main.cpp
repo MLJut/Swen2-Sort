@@ -5,7 +5,7 @@
 #include <string>
 //#include "../inc/heap.h"
 //#include "../inc/merge.h"
-//#include "../inc/bubbleSort.h" 
+#include "../inc/bubbleSort.h" 
 
 int main(int argc, char* argv[])
 {
@@ -46,7 +46,7 @@ int main(int argc, char* argv[])
                 }
             }
             if (!isActuallyADigit) {
-                alphaValues[alphasize] = argv[i][0];
+                alphaValues[alphasize] = argv[i][0];    
                 alphasize++;
             }
         }
@@ -54,6 +54,16 @@ int main(int argc, char* argv[])
 
     for (int i = 2; i < argc; i++) //show array before sorting
         std::cout << "value " << i - 1 << " = " << argv[i] << std::endl;
+
+    char* algorithm = argv[1];
+
+    if (strcmp(algorithm, "bubblesort") == 0) {
+        bubbleSort(values, valuesize);
+    }
+
+    //show sorted arrays
+    for (int i = 0; i < valuesize; i++) //show array after sorting
+        std::cout << "value " << i + 1 << " = " << values[i] << std::endl;
 
     return 0;
 };
