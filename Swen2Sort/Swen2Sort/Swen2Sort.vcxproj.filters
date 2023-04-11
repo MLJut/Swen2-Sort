@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Swen2Sort.cpp">
+    <ClCompile Include="src\Swen2Sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

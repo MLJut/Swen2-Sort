@@ -5,17 +5,6 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Swen2Sort", "Swen2Sort\Swen2Sort.vcxproj", "{E133B351-2CBA-4652-ADC0-053F389B658F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C833A8C0-5400-466B-89FA-B91E698F25A8}"
-	ProjectSection(SolutionItems) = preProject
-		Swen2Sort\Swen2Sort.cpp = Swen2Sort\Swen2Sort.cpp
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "inc", "inc", "{E04EBF16-7456-413E-9580-8B5C9630E4B9}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tst", "tst", "{AE840C47-3930-424D-BE39-19E9533561F6}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shl", "shl", "{E734903D-EA70-4735-874C-A08ADE43E780}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
