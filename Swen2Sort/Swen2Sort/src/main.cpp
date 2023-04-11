@@ -3,8 +3,8 @@
 #include <cctype>
 #include <conio.h>
 #include <string>
-//#include "../inc/heap.h"
-//#include "../inc/merge.h"
+#include "../inc/heapsort.h"
+#include "../inc/mergesort.h"
 #include "../inc/bubbleSort.h" 
 
 int main(int argc, char* argv[])
@@ -59,6 +59,12 @@ int main(int argc, char* argv[])
 
     if (strcmp(algorithm, "bubblesort") == 0) {
         bubbleSort(values, valuesize);
+    }
+    else if (strcmp(algorithm, "mergesort") == 0) {
+        mergeSort(values, 0, valuesize - 1);
+    }
+    else if (strcmp(algorithm, "heapsort") == 0) {
+        heapSort(values, valuesize);
     }
 
     //show sorted arrays
